@@ -1,0 +1,11 @@
+Question 6 Response: Count: How many values each variable has / Mean: Average value / Standard Deviation: How much the value deviates from the mean on average / Minimum: The smallest value in the column / 25%: One-fourth of the observed value / 50%: Half of the observed value
+/ 75%: Three-quarters of the observed value / Maximum: The maximum value in the column
+
+Question 7 Response
+1): I should use df.dropna() or del df['col'] to keep the useful information, filter and remove the missing data.
+2): When you have multiple missing data in multiple columns in your dataset, this time you can use df.dropna() to quickly filter out all the missing data in all columns or specific columns, but when you have only one column with multiple missing data in your dataset, this time use del df.['col'] can save time and improve efficiency.
+3): Apply del df['col'] first, removing the columns with too much missing data first will allow you to focus more on the more important columns when you use df.dropna() later.
+
+Question 8 Response: I am sorry I can't understand what question 8 is about.
+
+Question 9 Response: Yes
